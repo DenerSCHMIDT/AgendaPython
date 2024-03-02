@@ -1,2 +1,2 @@
 # AgendaPython
-Agenda criada em Python
+This is an initial project in python, from an agenda.
