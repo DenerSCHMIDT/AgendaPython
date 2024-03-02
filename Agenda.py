@@ -1,6 +1,5 @@
 import os
 
-# Variável global para armazenar a configuração do idioma
 language = "english"
 
 def menu():
@@ -174,11 +173,9 @@ def change_language():
 
 def exit_program():
     print("Encerrando programa...")
-    # Aqui você pode adicionar qualquer limpeza ou ações de encerramento necessárias antes de sair
     exit()
 
 try:
-    # Chamada da função menu para iniciar o programa
     menu()
 except KeyboardInterrupt:
     print("\nPrograma encerrado pelo usuário.")
